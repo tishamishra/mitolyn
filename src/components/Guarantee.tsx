@@ -22,7 +22,7 @@ export default function Guarantee() {
               <div className="rounded-lg overflow-hidden shadow-md">
                 <Image 
                   className="w-full" 
-                  src="/assets/images/money-back-guarantee.webp" 
+                  src="https://ik.imagekit.io/affin/money-back-guarantee.webp?updatedAt=1765361274891" 
                   alt="Mitolyn-money-back-guarantee" 
                   width={400} 
                   height={400}

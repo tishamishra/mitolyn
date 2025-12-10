@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+    domains: ['ik.imagekit.io'],
   },
 };
 

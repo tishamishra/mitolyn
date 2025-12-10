@@ -21,7 +21,7 @@ export default function WhatIsMitolyn() {
             <div className="col-12 col-lg-4">
               <div className="image-wrapper rounded-lg overflow-hidden shadow-md">
                 <Image 
-                  src="/assets/images/mitolyn-supplement.webp" 
+                  src="https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900" 
                   alt="Mitolyn-supplement" 
                   width={400} 
                   height={400}

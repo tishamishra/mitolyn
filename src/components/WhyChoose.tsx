@@ -3,25 +3,25 @@ import Image from 'next/image';
 export default function WhyChoose() {
   const features = [
     {
-      image: "/assets/images/gmp-certified-500x300.png",
+      image: "https://ik.imagekit.io/affin/gmp-certified-500x300.webp?updatedAt=1765361274884",
       alt: "Mitolyn-gmp-certified",
       title: "GMP Certified",
       description: "Good Manufacturing Practice certified ensuring pharmaceutical grade quality."
     },
     {
-      image: "/assets/images/made-in-usa-500x300.png",
+      image: "https://ik.imagekit.io/affin/made-in-usa-500x300.webp?updatedAt=1765361274885",
       alt: "Mitolyn-made-in-usa",
       title: "Made In The USA",
       description: "Mitolyn is proudly formulated in the United States of America."
     },
     {
-      image: "/assets/images/fda-approved-500x300.png",
+      image: "https://ik.imagekit.io/affin/fda-approved-500x300.webp?updatedAt=1765361274885",
       alt: "Mitolyn-approved",
       title: "FDA Approved Facility",
       description: "Mitolyn is formulated in an FDA-registered facility that adheres to strict FDA regulations."
     },
     {
-      image: "/assets/images/100-natural-500x300.png",
+      image: "https://ik.imagekit.io/affin/100-natural-500x300.webp?updatedAt=1765361274886",
       alt: "Mitolyn-natural-product",
       title: "100% All Natural",
       description: "We are proud to say that Mitolyn is Natural, Non-GMO, and Gluten-Free."

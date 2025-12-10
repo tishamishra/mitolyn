@@ -58,7 +58,7 @@ export default function Reviews() {
             <div className="col-12 col-lg-9">
               <div className="image-wrapper rounded-2xl overflow-hidden shadow-2xl border-4" style={{ borderColor: '#8b5cf6' }}>
                 <Image 
-                  src="/assets/images/mitolyn-review.webp" 
+                  src="https://ik.imagekit.io/affin/mitolyn-review.webp?updatedAt=1765361274886" 
                   alt="Mitolyn-review" 
                   width={900} 
                   height={600}
@@ -132,7 +132,7 @@ export default function Reviews() {
             <div className="col-12 col-lg-9">
               <div className="image-wrapper rounded-2xl overflow-hidden shadow-2xl border-4" style={{ borderColor: '#f59e0b' }}>
                 <Image 
-                  src="/assets/images/mitolyn-reviews.webp" 
+                  src="https://ik.imagekit.io/affin/mitolyn-review.webp?updatedAt=1765361274886" 
                   alt="Mitolyn-reviews" 
                   width={900} 
                   height={600}

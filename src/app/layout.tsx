@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://ik.imagekit.io/nang9yead/mitolyn-500x500.png",
+        url: "https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900",
         width: 500,
         height: 500,
         alt: "Mitolyn Official Supplement",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mitolyn Official - Natural Fat Loss Support",
     description: "Mitolyn official website supplement. Buy Mitolyn for fat loss & weight loss. Read reviews & order today.",
-    images: ["https://ik.imagekit.io/nang9yead/mitolyn-500x500.png"],
+    images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
   },
   alternates: {
     canonical: "https://mtolyn-us.com/",

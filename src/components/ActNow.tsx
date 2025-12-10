@@ -15,7 +15,7 @@ export default function ActNow() {
                 <div className="image-wrap my-8">
                   <div className="rounded-lg overflow-hidden shadow-lg inline-block bg-white p-3 border border-purple-200">
                     <Image 
-                      src="/assets/images/mitolyn-buy-480x451.png" 
+                      src="https://ik.imagekit.io/affin/mitolyn-buy-480x451.webp?updatedAt=1765361274874" 
                       alt="Mitolyn-official-website" 
                       width={480} 
                       height={451}

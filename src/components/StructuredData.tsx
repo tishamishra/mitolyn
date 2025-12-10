@@ -12,7 +12,7 @@ export default function StructuredData() {
       "name": "Mitolyn"
     },
     "image": [
-      "https://ik.imagekit.io/nang9yead/mitolyn-500x500.png"
+      "https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"
     ],
     "offers": {
       "@type": "Offer",
@@ -67,7 +67,7 @@ export default function StructuredData() {
     "@type": "Organization",
     "name": "Mitolyn Official",
     "url": baseUrl,
-    "logo": "https://ik.imagekit.io/nang9yead/mitolyn-500x500.png",
+    "logo": "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "Customer Service",

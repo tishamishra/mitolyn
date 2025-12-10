@@ -4,60 +4,65 @@ import Link from 'next/link';
 export default function Hero() {
   return (
     <section 
-      className="header14 cid-uwxCXuDQMI relative min-h-screen flex items-center" 
+      className="header14 cid-uwxCXuDQMI relative flex items-center py-12 md:py-16" 
       id="header14-8k"
       style={{
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat'
+        background: 'linear-gradient(to right, #e8d5ff 0%, #d5e8ff 100%)',
+        minHeight: '75vh'
       }}
     >
-      <div className="mbr-overlay absolute inset-0 bg-gradient-to-br from-indigo-50/90 via-purple-50/80 to-cyan-50/90"></div>
       <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 py-12 md:py-16 lg:py-20">
-          {/* Text Content - Left Side */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-white drop-shadow-lg" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.2' }}>
-              <strong>Mitolyn Official - Natural Fat Loss Support</strong>
-            </h1>
-            <p className="text-base md:text-lg lg:text-xl mb-6 text-white leading-relaxed drop-shadow-md" style={{ fontFamily: 'Arial, sans-serif' }}>
-              If you've been struggling to lose weight or feel constantly drained, Mitolyn might be exactly what you need. This powerful supplement works by targeting your mitochondria - those little energy factories inside every cell. When they're working at peak performance, your body naturally burns more fat and gives you the energy boost you've been missing. What I love about Mitolyn is that it's completely natural. No jittery stimulants, no harsh chemicals - just carefully selected plant extracts that work with your body's natural processes. It's helped thousands of people finally break through those stubborn weight loss plateaus while feeling more energized than they have in years.
-            </p>
-            <div className="my-6 p-4 md:p-5 rounded-lg bg-white/90 backdrop-blur-sm border-l-4 border-yellow-500 shadow-lg">
-              <p className="text-base md:text-lg lg:text-xl font-semibold text-gray-900" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Try Mitolyn For Over 80% OFF Today!</strong> - Limited Time Offer
-              </p>
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+          
+          {/* Product Visuals - Left Side */}
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start relative">
+            <div className="relative w-full">
+              {/* Featured Product Image */}
+              <div className="relative mb-6 w-full flex justify-center lg:justify-start">
+                <img 
+                  src="https://ik.imagekit.io/affin/mitolyn-official.webp" 
+                  alt="Mitolyn Product" 
+                  className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[400px] h-auto object-contain"
+                  style={{ display: 'block' }}
+                />
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
+          </div>
+          
+          {/* Text Content - Right Side */}
+          <div className="w-full lg:w-1/2 flex flex-col justify-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-black" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.2' }}>
+              Mitolyn
+            </h1>
+            <p className="text-base md:text-lg mb-6 text-black leading-relaxed" style={{ fontFamily: 'Arial, sans-serif' }}>
+              Struggling to lose weight no matter what you try? Mitolyn targets the root cause by supporting your mitochondria - those tiny powerhouses inside every cell that turn food into energy. When they're working properly, your body naturally burns fat faster and gives you the energy boost you've been missing. What sets this apart is that it's completely natural. No caffeine jitters, no synthetic ingredients - just carefully chosen plant extracts that help your body function the way it's supposed to. The result? Better weight loss results, more consistent energy throughout the day, and improved mental focus, all without the side effects you get from most supplements.
+            </p>
+            <p className="text-lg md:text-xl font-bold mb-6 text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
+              Try Mitolyn For Over 80% OFF Today!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mt-4">
               <a 
-                className="btn btn-warning bg-yellow-500 text-black px-14 py-7 rounded-md font-bold hover:bg-yellow-600 transition-colors inline-flex items-center justify-center text-lg md:text-xl shadow-lg hover:shadow-xl min-w-[220px]" 
+                className="btn bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-colors inline-flex items-center justify-center text-base md:text-lg shadow-lg hover:shadow-xl min-w-[200px]" 
                 href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 GET A DISCOUNT
+                <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
               </a>
               <a 
-                className="btn btn-secondary bg-gray-700 text-white px-14 py-7 rounded-md font-bold hover:bg-gray-800 transition-colors inline-flex items-center justify-center text-lg md:text-xl shadow-lg hover:shadow-xl min-w-[220px]" 
+                className="btn bg-red-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-red-700 transition-colors inline-flex items-center justify-center text-base md:text-lg shadow-lg hover:shadow-xl min-w-[200px]" 
                 href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Official Website →
+                Official Website
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </a>
-            </div>
-          </div>
-          
-          {/* Image - Right Side */}
-          <div className="w-full lg:w-1/2 flex items-center justify-center">
-            <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl">
-              <img 
-                src="https://ik.imagekit.io/nang9yead/mitolyn-500x500.png" 
-                alt="Mitolyn" 
-                className="w-full h-auto"
-                style={{ display: 'block', maxWidth: '100%' }}
-              />
             </div>
           </div>
         </div>

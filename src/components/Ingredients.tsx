@@ -92,11 +92,11 @@ export default function Ingredients() {
           <div className="content-wrapper">
             <div className="row align-items-center flex flex-col lg:flex-row gap-10">
               <div className="col-12 col-lg-5">
-                <div className="image-wrapper rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-200 bg-white">
+                <div className="image-wrapper rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-200 bg-white p-4">
                   <img 
-                    src="https://ik.imagekit.io/nang9yead/mitolyn-500x500.png" 
+                    src="https://ik.imagekit.io/affin/mitolyn-buy-480x451.webp?updatedAt=1765361274874" 
                     alt="Mitolyn order" 
-                    className="w-full h-auto object-contain"
+                    className="w-full max-w-[250px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[360px] h-auto object-contain mx-auto"
                   />
                 </div>
               </div>

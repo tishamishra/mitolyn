@@ -24,7 +24,7 @@ export default function Bonuses() {
                 <div className="col-12 col-md-4">
                   <div className="image-wrapper">
                     <Image 
-                      src="/assets/images/mitolyn-bonus.webp" 
+                      src="https://ik.imagekit.io/affin/mitolyn-bonus.webp?updatedAt=1765361274887" 
                       alt="Mitolyn bonus 2" 
                       width={400} 
                       height={400}
@@ -59,7 +59,7 @@ export default function Bonuses() {
                 <div className="col-12 col-md-4">
                   <div className="image-wrapper">
                     <Image 
-                      src="/assets/images/mitolyn-bonus-2.webp" 
+                      src="https://ik.imagekit.io/affin/mitolyn-bonus-2.webp?updatedAt=1765361274887" 
                       alt="Mitolyn bonus 2" 
                       width={400} 
                       height={400}

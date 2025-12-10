@@ -16,7 +16,7 @@ export default function Header() {
               <span className="navbar-logo">
                 <Link href="/">
                   <Image 
-                    src="/assets/images/mitolyn-favicon-logo-485x94.png" 
+                    src="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" 
                     alt="Mitolyn official website" 
                     width={485} 
                     height={94}
