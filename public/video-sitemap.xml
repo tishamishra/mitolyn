@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+<url>
+<loc>https://mitolyn-review-video.vercel.app/</loc>
+<video:video>
+<video:thumbnail_loc>https://i.ytimg.com/vi/bhcqSygCwok/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Mitolyn Review 2026</video:title>
+<video:description>Honest Mitolyn review and results explained.</video:description>
+<video:player_loc>https://www.youtube.com/embed/bhcqSygCwok</video:player_loc>
+</video:video>
+</url>
+
+</urlset>
