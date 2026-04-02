@@ -78,6 +78,10 @@ export default function RootLayout({
         <link rel="icon" type="image/webp" sizes="32x32" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
         <link rel="icon" type="image/webp" sizes="16x16" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
         <meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />
+        <meta
+          name="google-site-verification"
+          content="ClnDfgzM2hchOK7S3En01dET9GUGDX9yOcXvdAd75To"
+        />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="author" content="Mitolyn Official" />
