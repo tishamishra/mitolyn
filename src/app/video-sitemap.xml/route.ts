@@ -1,5 +1,8 @@
 import { mitolynYoutube } from '@/lib/youtube';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 const baseUrl = 'https://mitolyn-review-video.vercel.app';
 
 const pages = [
