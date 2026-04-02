@@ -20,8 +20,8 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      'https://mtolyn-us.com/sitemap.xml',
-      'https://mtolyn-us.com/video-sitemap.xml',
+      'https://mitolyn-review-video.vercel.app/sitemap.xml',
+      'https://mitolyn-review-video.vercel.app/video-sitemap.xml',
     ],
   };
 }

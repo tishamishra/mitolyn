@@ -1,6 +1,6 @@
 import { mitolynYoutube } from '@/lib/youtube';
 
-const baseUrl = 'https://mtolyn-us.com';
+const baseUrl = 'https://mitolyn-review-video.vercel.app';
 
 const pages = [
   '',

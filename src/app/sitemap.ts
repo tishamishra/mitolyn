@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mtolyn-us.com';
+  const baseUrl = 'https://mitolyn-review-video.vercel.app';
   const videoPages = [
     '',
     '/mitolyn-reviews',
