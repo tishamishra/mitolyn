@@ -3,14 +3,15 @@ import Script from "next/script";
 import "./globals.css";
 import "./socicon.css";
 import "./mobirise-sections.css";
+import { mitolynYoutube } from "@/lib/youtube";
 
 export const metadata: Metadata = {
-  title: "Mitolyn Official - Natural Fat Loss Support | USA",
-  description: "Mitolyn official website supplement. Buy Mitolyn for fat loss, weight loss & energy boost. Read reviews, learn benefits & order today. USA official website.",
-  keywords: "mitolyn, mitolyn official, mitolyn buy, mitolyn fat loss, mitolyn reviews, mitolyn official website supplement, mitolyn usa official website",
+  title: "MITOLYN REVIEW 2026 – The Truth They DON’T Want You To Know!",
+  description: "Is Mitolyn really the fat-burning miracle everyone is talking about… or just another overhyped scam? In this video, we break down EVERYTHING you need to know.",
+  keywords: "mitolyn, mitolyn review, mitolyn reviews 2026, mitolyn fat loss, mitolyn scam, does mitolyn work",
   openGraph: {
-    title: "Mitolyn Official - Natural Fat Loss Support | USA",
-    description: "Mitolyn official website supplement. Buy Mitolyn for fat loss, weight loss & energy boost. Read reviews & order today.",
+    title: "MITOLYN REVIEW 2026 – The Truth They DON’T Want You To Know!",
+    description: "Is Mitolyn really the fat-burning miracle everyone is talking about… or just another overhyped scam? In this video, we break down EVERYTHING you need to know.",
     url: "https://mtolyn-us.com/",
     siteName: "Mitolyn Official",
     type: "website",
@@ -22,12 +23,21 @@ export const metadata: Metadata = {
         alt: "Mitolyn Official Supplement",
       },
     ],
+    videos: [
+      {
+        url: mitolynYoutube.embedUrl,
+        secureUrl: mitolynYoutube.embedUrl,
+        type: "text/html",
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Mitolyn Official - Natural Fat Loss Support",
-    description: "Mitolyn official website supplement. Buy Mitolyn for fat loss & weight loss. Read reviews & order today.",
-    images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
+    card: "player",
+    title: "MITOLYN REVIEW 2026 – The Truth They DON’T Want You To Know!",
+    description: "Is Mitolyn really the fat-burning miracle everyone is talking about… or just another overhyped scam? Watch our honest review.",
+    images: [mitolynYoutube.thumbnailMax],
   },
   alternates: {
     canonical: "https://mtolyn-us.com/",
@@ -86,11 +96,6 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-XXXXXXXXXX');
-          `}
-        </Script>
-        <Script id="disable-context-menu">
-          {`
-            document.addEventListener('contextmenu', event => event.preventDefault());
           `}
         </Script>
         {children}

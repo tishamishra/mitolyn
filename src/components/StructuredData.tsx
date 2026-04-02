@@ -1,3 +1,5 @@
+import { mitolynYoutube } from "@/lib/youtube";
+
 export default function StructuredData() {
   const baseUrl = "https://mtolyn-us.com";
 
@@ -16,49 +18,16 @@ export default function StructuredData() {
     ],
     "offers": {
       "@type": "Offer",
-      "url": "https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing",
+      "url": `${baseUrl}/`,
       "priceCurrency": "USD",
       "price": "39.00",
-      "priceValidUntil": "2025-12-31",
+      "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",
         "name": "Mitolyn Official"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "999"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Sarah M."
-        },
-        "reviewBody": "Mitolyn has been amazing for my weight loss journey. I've lost 15 pounds in 2 months and have so much more energy."
-      },
-      {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Michael R."
-        },
-        "reviewBody": "Best fat loss supplement I've tried. The official Mitolyn website made ordering easy and delivery was fast."
-      }
-    ]
+    }
   };
 
   // Organization Schema
@@ -104,6 +73,27 @@ export default function StructuredData() {
         "item": baseUrl
       }
     ]
+  };
+
+  // VideoObject — helps Google Video rich results / Video tab eligibility
+  const videoSchema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: mitolynYoutube.title,
+    description: mitolynYoutube.description,
+    thumbnailUrl: [mitolynYoutube.thumbnailMax, mitolynYoutube.thumbnailHq],
+    uploadDate: mitolynYoutube.uploadDate,
+    contentUrl: mitolynYoutube.watchUrl,
+    embedUrl: `https://www.youtube.com/embed/${mitolynYoutube.id}`,
+    isFamilyFriendly: true,
+    publisher: {
+      "@type": "Organization",
+      name: "Mitolyn Official",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883",
+      },
+    },
   };
 
   // FAQ Schema
@@ -167,6 +157,10 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
       />
     </>
   );
