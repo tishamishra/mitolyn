@@ -2,6 +2,13 @@ import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://mtolyn-us.com';
+  const videoPages = [
+    '',
+    '/mitolyn-reviews',
+    '/mitolyn-scam-exposed',
+    '/does-mitolyn-work',
+    '/mitolyn-ingredients-and-side-effects',
+  ];
   
   return [
     {
@@ -46,6 +53,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.7,
     },
+    ...videoPages
+      .filter((path) => path !== '')
+      .map((path) => ({
+        url: `${baseUrl}${path}`,
+        lastModified: new Date(),
+        changeFrequency: 'daily' as const,
+        priority: 0.9,
+      })),
   ];
 }
 

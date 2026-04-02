@@ -80,41 +80,12 @@ export default function Header() {
               id="navbarSupportedContent"
             >
               <div className="flex flex-col h-full md:h-auto py-20 md:py-0 px-6 md:px-0">
-                <ul className="navbar-nav nav-dropdown flex flex-col md:flex-row md:items-center md:space-x-6 space-y-4 md:space-y-0 mb-6 md:mb-0">
-                  <li className="nav-item">
-                    <Link 
-                      className="nav-link link text-white text-lg md:text-base hover:text-cyan-200 transition-all duration-300 font-medium py-3 md:py-2 px-4 md:px-2 rounded-lg md:rounded-none hover:bg-white hover:bg-opacity-10 md:hover:bg-transparent" 
-                      href="#header3-1n"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Benefits
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link 
-                      className="nav-link link text-white text-lg md:text-base hover:text-cyan-200 transition-all duration-300 font-medium py-3 md:py-2 px-4 md:px-2 rounded-lg md:rounded-none hover:bg-white hover:bg-opacity-10 md:hover:bg-transparent" 
-                      href="#content4-6e"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Reviews
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link 
-                      className="nav-link link text-white text-lg md:text-base hover:text-cyan-200 transition-all duration-300 font-medium py-3 md:py-2 px-4 md:px-2 rounded-lg md:rounded-none hover:bg-white hover:bg-opacity-10 md:hover:bg-transparent" 
-                      href="#content4-g"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Price
-                    </Link>
-                  </li>
-                </ul>
                 <div className="navbar-buttons mt-4 md:mt-0 md:ml-6">
                   <a 
                     className="btn btn-warning bg-yellow-500 text-black px-6 py-4 md:px-10 md:py-5 rounded-lg md:rounded-md font-bold hover:bg-yellow-600 transition-all duration-300 inline-flex items-center text-base md:text-lg shadow-lg hover:shadow-xl w-full md:w-auto justify-center transform hover:scale-105 md:hover:scale-100" 
                     href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer sponsored nofollow"
                     onClick={() => setIsOpen(false)}
                   >
                     Order Now
