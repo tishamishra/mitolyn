@@ -1,6 +1,11 @@
 import { mitolynYoutube } from '@/lib/youtube';
 
-export default function Hero() {
+type HeroProps = {
+  title: string;
+  intro: string;
+};
+
+export default function Hero({ title, intro }: HeroProps) {
   return (
     <section 
       className="relative flex flex-col items-center pt-8 pb-12 md:pt-12 md:pb-16" 
@@ -11,10 +16,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10 w-full max-w-5xl">
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-black" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.2' }}>
-            MITOLYN REVIEW 2026 – The Truth They DON’T Want You To Know!
+            {title}
           </h1>
           <p className="text-base md:text-lg text-black leading-relaxed max-w-3xl mx-auto" style={{ fontFamily: 'Arial, sans-serif' }}>
-            Is Mitolyn really the fat-burning miracle everyone is talking about… or just another overhyped scam? In this video, I break down EVERYTHING you need to know before you buy!
+            {intro}
           </p>
         </div>
 
