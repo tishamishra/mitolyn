@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Does Mitolyn Really Work? Science-Backed Weight Loss Review",
     description: "Does Mitolyn actually work for fat loss? We break down the science, ingredients, and mitochondrial support claims in our full 2026 review.",
-    url: "https://mtolyn-us.com/does-mitolyn-work",
+    url: "https://mitolyn-review-video.vercel.app/does-mitolyn-work",
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/does-mitolyn-work",
+    canonical: "https://mitolyn-review-video.vercel.app/does-mitolyn-work",
   }
 };
 

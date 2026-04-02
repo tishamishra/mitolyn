@@ -1,7 +1,7 @@
 import { mitolynYoutube } from "@/lib/youtube";
 
 export default function StructuredData() {
-  const baseUrl = "https://mtolyn-us.com";
+  const baseUrl = "https://mitolyn-review-video.vercel.app";
 
   // Product Schema
   const productSchema = {

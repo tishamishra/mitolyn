@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mitolyn Scam Exposed? What They Don't Want You to Know",
     description: "Is Mitolyn a scam? We expose the truth behind the hype. Watch our full video review before you buy the Mitolyn supplement.",
-    url: "https://mtolyn-us.com/mitolyn-scam-exposed",
+    url: "https://mitolyn-review-video.vercel.app/mitolyn-scam-exposed",
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/mitolyn-scam-exposed",
+    canonical: "https://mitolyn-review-video.vercel.app/mitolyn-scam-exposed",
   }
 };
 

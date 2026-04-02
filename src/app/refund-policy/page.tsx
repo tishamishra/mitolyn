@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Mitolyn official refund policy. Learn about our 30-day money-back guarantee and return process on the official Mitolyn website.',
   keywords: 'mitolyn refund, mitolyn buy refund, mitolyn official refund policy',
   alternates: {
-    canonical: 'https://mtolyn-us.com/refund-policy',
+    canonical: 'https://mitolyn-review-video.vercel.app/refund-policy',
   },
 };
 

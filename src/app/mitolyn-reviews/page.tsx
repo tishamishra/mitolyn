@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mitolyn Reviews 2026 - Real Customer Results & Complaints",
     description: "Read honest Mitolyn reviews for 2026. Discover real customer results, complaints, and the truth about this fat-burning supplement.",
-    url: "https://mtolyn-us.com/mitolyn-reviews",
+    url: "https://mitolyn-review-video.vercel.app/mitolyn-reviews",
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/mitolyn-reviews",
+    canonical: "https://mitolyn-review-video.vercel.app/mitolyn-reviews",
   }
 };
 

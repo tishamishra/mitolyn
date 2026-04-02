@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const INDEXNOW_API_KEY = '3cb7e65af3084231b9e5e0b98a4f5859';
-const BASE_URL = 'https://mtolyn-us.com';
+const BASE_URL = 'https://mitolyn-review-video.vercel.app';
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/IndexNow';
 
 export async function POST(request: NextRequest) {

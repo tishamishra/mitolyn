@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MITOLYN REVIEW 2026 – The Truth They DON’T Want You To Know!",
     description: "Is Mitolyn really the fat-burning miracle everyone is talking about… or just another overhyped scam? In this video, we break down EVERYTHING you need to know.",
-    url: "https://mtolyn-us.com/",
+    url: "https://mitolyn-review-video.vercel.app/",
     siteName: "Mitolyn Official",
     type: "website",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     images: [mitolynYoutube.thumbnailMax],
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/",
+    canonical: "https://mitolyn-review-video.vercel.app/",
   },
   icons: {
     icon: [

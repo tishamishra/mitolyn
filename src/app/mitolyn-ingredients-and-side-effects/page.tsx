@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mitolyn Ingredients & Side Effects Explained (2026 Review)",
     description: "A complete breakdown of Mitolyn ingredients and potential side effects. See what's inside this natural fat-burning formula before buying.",
-    url: "https://mtolyn-us.com/mitolyn-ingredients-and-side-effects",
+    url: "https://mitolyn-review-video.vercel.app/mitolyn-ingredients-and-side-effects",
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/mitolyn-ingredients-and-side-effects",
+    canonical: "https://mitolyn-review-video.vercel.app/mitolyn-ingredients-and-side-effects",
   }
 };
 
