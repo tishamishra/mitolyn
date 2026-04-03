@@ -14,4 +14,4 @@ Disallow: /api/
 Disallow: /admin/
 
 Sitemap: https://mitolyn-review-video.vercel.app/sitemap.xml
-Sitemap: https://mitolyn-review-video.vercel.app/video-sitemap.xml
+Sitemap: https://mitolyn-review-video.vercel.app/video-sitemap-2.xml

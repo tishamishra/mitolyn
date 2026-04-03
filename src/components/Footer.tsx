@@ -105,6 +105,18 @@ export default function Footer() {
                 <Link href="/contact-us" className="text-white hover:text-yellow-400 transition-colors text-sm font-medium">
                   Contact Us
                 </Link>
+                <span className="text-gray-400">|</span>
+                <Link href="/sitemap.xml" className="text-white hover:text-yellow-400 transition-colors text-sm font-medium">
+                  Sitemap
+                </Link>
+                <span className="text-gray-400">|</span>
+                <Link href="/video-sitemap.xml" className="text-white hover:text-yellow-400 transition-colors text-sm font-medium">
+                  Video Sitemap
+                </Link>
+                <span className="text-gray-400">|</span>
+                <Link href="/video-sitemap-2.xml" className="text-white hover:text-yellow-400 transition-colors text-sm font-medium">
+                  Video Sitemap 2
+                </Link>
               </div>
               <p className="text-center text-sm text-white">
                 © Copyright 2024 - <Link href="/" className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium">Mitolyn</Link> All Rights Reserved
