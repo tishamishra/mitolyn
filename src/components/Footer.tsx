@@ -55,6 +55,16 @@ export default function Footer() {
                         Mitolyn Price
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        href="https://www.affinsight.com/offers/mitolyn-a-dietary-supplement"
+                        target="_blank"
+                        rel="noopener"
+                        className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl"
+                      >
+                        Mitolyn Offer on Affinsight
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -118,6 +128,17 @@ export default function Footer() {
                   Video Sitemap 2
                 </Link>
               </div>
+              <p className="text-center text-sm text-white mb-2">
+                As featured on{' '}
+                <a
+                  href="https://www.affinsight.com/offers/mitolyn-a-dietary-supplement"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium"
+                >
+                  Affinsight
+                </a>
+              </p>
               <p className="text-center text-sm text-white">
                 © Copyright 2024 - <Link href="/" className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium">Mitolyn</Link> All Rights Reserved
               </p>
